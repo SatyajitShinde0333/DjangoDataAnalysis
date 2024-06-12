@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #9BD770
+        ;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(0, 5, 10);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #090909;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        .histogram {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Analysis Results</h1>
+
+        <h2>First Few Rows of Data</h2>
+        {{ head_data|safe }}
+
+        <h2>Summary Statistics</h2>
+        {{ summary_stats|safe }}
+
+        <h2>Missing Values</h2>
+        {{ missing_values|safe }}
+
+        <div class="histogram">
+            <h2>Histogram</h2>
+            <img src="data:image/png;base64,{{ histogram_image }}" alt="Histogram">
+        </div>
+
+    </div>
+</body>
+</html>
