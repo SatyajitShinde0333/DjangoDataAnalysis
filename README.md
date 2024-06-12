@@ -113,14 +113,23 @@ data_analysis_project/
 2. After uploading, you will be redirected to a success page.
 3. Click on the link to view the analysis results, which include histograms.
 
-**6 Customization**
+**6 CSV Files**
+
+- Uploaded CSV files are stored in the `media/csv_files/` directory.
+- Ensure the `media` directory exists and is writable by the web server.
+
+### Sample CSV File: Crop Production
+
+A sample CSV file `crop_production.csv` is included in the `media/csv_files/` directory. This file contains data on crop production, with columns such as `Year`, `State`, `Crop`, `Area`, and `Production`. 
+
+**7 Customization**
 Views
 The main logic for generating the histograms and pie charts is in analysis/views.py. You can customize the charts by modifying the Seaborn and Matplotlib settings.
 
 Templates
 The HTML templates are located in analysis/templates/analysis/. You can customize the appearance by editing these templates and the associated HTML file in analysis/templates/analysis/result.html.
 
-**7 Contributing**
+**8 Contributing**
 
 Contributions are welcome! Please follow these steps:
 
@@ -130,7 +139,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (git push origin feature-branch).
 5. Create a pull request.
 
-**8 Acknowledgements**
+**9 Acknowledgements**
 
 - [Django](https://www.djangoproject.com/)
 - [Seaborn](https://seaborn.pydata.org/)
@@ -138,7 +147,7 @@ Contributions are welcome! Please follow these steps:
 - [Poppins Font](https://fonts.google.com/specimen/Poppins)
 
 
-**9 Explanation**
+**10 Explanation**
 
 - Project Features: A brief overview of what the project does.
 - Prerequisites: Requirements for running the project.
