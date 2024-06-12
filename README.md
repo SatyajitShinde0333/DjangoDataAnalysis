@@ -67,12 +67,6 @@ To get started with the project, follow these steps:
 
 **4 Project Structure**
 
-# Data Analysis Project
-
-This project is a Django-based web application for uploading data files, performing data analysis, and visualizing the results through histograms and pie charts.
-
-## Project Structure
-
 ```plaintext
 data_analysis_project/
 │
@@ -80,9 +74,9 @@ data_analysis_project/
 │   ├── migrations/
 │   ├── templates/
 │   │   └── analysis/
-│   │       ├── index.html
+│   │       ├── upload.html
 │   │       ├── success.html
-│   │       └── plot.html
+│   │       └── result.html
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
