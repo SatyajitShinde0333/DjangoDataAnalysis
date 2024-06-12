@@ -23,7 +23,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
    bash
-   git clone https://github.com/yourusername/data_analysis_project.git
+   git clone https://github.com/SatyajitShinde0333/DjangoDataAnalysis.git
    
 
 2. **Navigate to the project directory:**
@@ -94,7 +94,7 @@ data_analysis_project/
 ├── manage.py
 └── requirements.txt
 
-
+```
 
 
 **5 Usage**
@@ -119,10 +119,6 @@ Contributions are welcome! Please follow these steps:
 3. Make your changes and commit them (git commit -m 'Add new feature).
 4. Push to the branch (git push origin feature-branch).
 5. Create a pull request.
-
- License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 **8 Acknowledgements**
 
