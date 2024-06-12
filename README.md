@@ -22,49 +22,49 @@ Before you begin, ensure you have met the following requirements:
 To get started with the project, follow these steps:
 
 1. **Clone the repository:**
-   bash
-   git clone https://github.com/SatyajitShinde0333/DjangoDataAnalysis.git
-   
+   ```bash
+   git clone https://github.com/SatyajitShinde0333/DjangoDataAnalysis
+   ```
 
 2. **Navigate to the project directory:**
-   bash
+   ```bash
    cd data_analysis_project
-   
+   ```
 
 3. **Create a virtual environment:**
-   bash
+   ```bash
    python -m venv .venv
-   
+   ```
 
 4. **Activate the virtual environment:**
    - On Windows:
-     bash
+     ```bash
      .venv\Scripts\activate
-     
+     ```
    - On macOS/Linux:
-     bash
+     ```bash
      source .venv/bin/activate
-     
+     ```
 
 5. **Install the required packages:**
-   bash
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 
 6. **Apply the migrations:**
-   bash
+   ```bash
    python manage.py migrate
-   
+   ```
 
 7. **Run the development server:**
-   bash
+   ```bash
    python manage.py runserver
-   
+   ```
 
 8. **Open your browser and navigate to:**
-   
+   ```
    http://127.0.0.1:8000/
-
+   ```
 **4 Project Structure**
 
 ```plaintext
