@@ -67,12 +67,6 @@ To get started with the project, follow these steps:
 
 **4 Project Structure**
 
-# Data Analysis Project
-
-This project is a Django-based web application for uploading data files, performing data analysis, and visualizing the results through histograms and pie charts.
-
-## Project Structure
-
 ```plaintext
 data_analysis_project/
 │
@@ -118,7 +112,7 @@ data_analysis_project/
 - Uploaded CSV files are stored in the `media/csv_files/` directory.
 - Ensure the `media` directory exists and is writable by the web server.
 
-### Sample CSV File: Crop Production
+ Sample CSV File: Crop Production
 
 A sample CSV file `crop_production.csv` is included in the `media/csv_files/` directory. This file contains data on crop production, with columns such as `Year`, `State`, `Crop`, `Area`, and `Production`. 
 
