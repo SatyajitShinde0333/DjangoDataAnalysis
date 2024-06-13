@@ -26,7 +26,7 @@ def handle_uploaded_file(f):
 
 
 def plot_histogram(request):
-    # Load the data
+    
     data = pd.read_csv('media/temp.csv')
 
     # Generate histograms for numeric columns
