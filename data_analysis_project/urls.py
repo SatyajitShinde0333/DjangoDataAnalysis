@@ -24,3 +24,5 @@ urlpatterns = [
     path('', include('analysis.urls')),  # include URLs from the analysis app
 ]
 
+
+
