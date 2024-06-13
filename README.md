@@ -28,7 +28,7 @@ To get started with the project, follow these steps:
 
 2. **Navigate to the project directory:**
    ```bash
-   cd data_analysis_project
+   cd DjangoDataAnalysis
    ```
 
 3. **Create a virtual environment:**
